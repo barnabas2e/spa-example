@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class PageComponent implements OnInit {
 
-  page: Object;
+  mypage: Object;
 
   constructor(
     private contentService: ContentService,
@@ -20,6 +20,6 @@ export class PageComponent implements OnInit {
   
   ngOnInit(): void {
     const pageData = this.route.snapshot.data['page'];
-    this.page = this.contentService.pages[pageData];
+    this.mypage = this.contentService.pages[pageData];
   }
 }

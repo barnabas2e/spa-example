@@ -1,32 +1,4 @@
-
-<mat-toolbar color="primary">
-    <h1>
-        <span class="light">
-            SUPER
-        </span>
-        LOGO
-    </h1>
-    <a
-        mat-button 
-        [routerLink]="['home']" 
-        routerLinkActive="active"
-     >
-        HOME
-    </a>
-    <a 
-        mat-button 
-        [routerLink]="['about']" 
-        routerLinkActive="active"
-    >
-        ABOUT
-    </a>
-    <a
-        mat-button 
-        [routerLink]="['contact']" 
-        routerLinkActive="active" 
-    >
-        CONTACT
-    </a>
-</mat-toolbar>
+<app-header></app-header>
 <app-page></app-page>
+<app-footer></app-footer>
 <router-outlet></router-outlet>

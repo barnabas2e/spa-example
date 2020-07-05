@@ -8,12 +8,16 @@ import { PageComponent } from './page/page.component';
 import { ContentService } from './shared/services/content.service';
 import { AppRoutingModule } from './app-routing.module';
 import { FullpageDirective } from './shared/directive/fullpage.directive';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
-    FullpageDirective
+    FullpageDirective,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

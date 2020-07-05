@@ -19,12 +19,12 @@ export class ContentService {
       title: 'About',
       subtitle: 'About us',
       content: 'Information about goes here',
-      image: 'assets/images/bg/bg01.jpg'
+      image: 'assets/images/bg/bg02.jpg'
     },
     'contact' : {
       title: 'Contact',
       subtitle: 'Contact us',
-      content: 'We located in the following address',
+      content: 'We are located at the following address',
       image: 'assets/images/bg/bg02.jpg'
     }
   };
